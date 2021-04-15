@@ -10,4 +10,7 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hello">hello yb</string>
+    <string name="imgdaum">https://xexymix.jpg3.kr/xexymix/2020/main/main_banner_210309_2.jpg</string>
+
+
 </resources>
