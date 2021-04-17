@@ -2,6 +2,7 @@ package com.example.ybkim
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.LayoutInflater
 import android.widget.LinearLayout
@@ -40,7 +41,7 @@ class AddViewActivity : AppCompatActivity() {
         val container = findViewById<LinearLayout>(R.id.addview_container)
         val inflater: LayoutInflater = LayoutInflater.from(this@AddViewActivity)
 
-        for (i in 0 until carList.size-1) {
+        for (i in 0 until carList.size - 1) {
             val itemView = inflater.inflate(R.layout.item_view, null)
             var carNameView = itemView.findViewById<TextView>(R.id.id_car_name)
             val carEngineView = itemView.findViewById<TextView>(R.id.id_engine_name)
@@ -53,6 +54,39 @@ class AddViewActivity : AppCompatActivity() {
 
     }
 
-    class MyCar(val carName: String, val carEngine: String) {}
+    //    class MyCar(val carName: String, val carEngine: String) {}
+    class MyCar {
+        var carName: String = ""
+        var carEngine: String = ""
+        var carSeat: String = ""
+
+        constructor(carName: String, carEngine: String) {
+            this.carName = carName
+            this.carEngine = carEngine
+        }
+
+        constructor(carName: String, carEngine: String, carSeat: String) {
+            this.carName = carName
+            this.carEngine = carEngine
+            this.carSeat = carSeat
+        }
+
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

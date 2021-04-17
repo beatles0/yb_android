@@ -14,7 +14,7 @@
         android:layout_weight="1"
         android:background="#92E334"
         android:gravity="center"
-        android:text="aaaaaaaaaaaaaaaa"
+        android:text="car name"
         android:textSize="30dp"
         tools:ignore="MissingConstraints" />
 
@@ -32,7 +32,7 @@
         android:layout_weight="1"
         android:background="#2196F3"
         android:gravity="center"
-        android:text="bbbbbbbbb"
+        android:text="engine name"
         android:textSize="30dp"
         tools:ignore="MissingConstraints" />
 
