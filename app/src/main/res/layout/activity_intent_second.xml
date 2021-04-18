@@ -5,14 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FF9800"
-    tools:context=".IntentSecond">
+    tools:context=".IntentSecond"
+    android:orientation="vertical"
+    >
 
     <Button
         android:id="@+id/btn_second_move"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:text="first 로 이동"
+        android:backgroundTint="@color/sky"
+        android:textColor="@color/black"
         android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_second_finish"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="finish !!! "
+        android:backgroundTint="@color/blue"
+        android:textSize="30dp" />
+
 
 
 </LinearLayout>
