@@ -13,4 +13,5 @@
         android:text="second 로 이동 "
         android:textSize="30dp"
         />
+
 </LinearLayout>

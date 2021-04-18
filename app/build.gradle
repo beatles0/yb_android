@@ -31,6 +31,15 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    // 2021.04.18 추가
+    // view binding
+    // https://juahnpop.tistory.com/215?category=933672
+    viewBinding {
+        enabled = true
+    }
+
+
 }
 
 dependencies {
