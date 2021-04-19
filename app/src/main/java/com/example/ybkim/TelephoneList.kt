@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ybkim.databinding.ActivityBindingTestBinding
 import com.example.ybkim.databinding.ActivityTelephoneListBinding
+import kotlinx.android.synthetic.main.activity_telephone_list_in.*
 
 class TelephoneList : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -69,21 +70,9 @@ class TelephoneList : AppCompatActivity() {
             Log.d("car: ", arrPhoneList.get(i).nickName + " / " + arrPhoneList.get(i).phoneNum)
         }
 
-
-
-//        for (i in 0 until arrPhoneList.size - 1) {
-//            val itemView = inflater.inflate(R.layout.item_view, null)
-//            var carNameView = itemView.findViewById<TextView>(R.id.id_car_name)
-//            val carEngineView = itemView.findViewById<TextView>(R.id.id_engine_name)
-//
-//            carNameView.setText(carList.get(i).carName)
-//            carEngineView.setText(carList.get(i).carEngine)
-//            container.addView(itemView)
-//            Log.d("car: ", carList.get(i).carName + " / " + carList.get(i).carEngine)
-//        }
-
-
-
+        id_nick_name.setOnClickListener {
+            
+        }
 
     }
 
