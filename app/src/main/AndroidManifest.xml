@@ -12,26 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
-        <activity android:name=".BindingTest">
+        <activity android:name=".BindingTest"/>
+        <activity android:name=".TelephoneList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".IntentSecond" />
-        <activity android:name=".IntentFirst"></activity>
+        <activity android:name=".IntentFirst" />
         <activity android:name=".AddViewActivity" />
         <activity
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.Test.NoActionBar" />
         <activity android:name=".Listerner">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

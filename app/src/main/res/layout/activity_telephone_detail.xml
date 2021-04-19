@@ -26,7 +26,7 @@
             android:src="@drawable/dog" />
 
         <TextView
-            android:id="@+id/id_nickName"
+            android:id="@+id/id_nick_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -34,7 +34,7 @@
             android:textSize="30dp" />
 
         <TextView
-            android:id="@+id/id_realName"
+            android:id="@+id/id_real_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -42,7 +42,7 @@
             android:textSize="30dp" />
 
         <TextView
-            android:id="@+id/id_phoneNumber"
+            android:id="@+id/id_phone_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

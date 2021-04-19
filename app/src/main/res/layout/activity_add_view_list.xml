@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".AddViewActivity">
 
+
     <LinearLayout
         android:id="@+id/addview_container"
         android:layout_width="match_parent"
