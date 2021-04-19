@@ -7,3 +7,18 @@ waf-*-*/
 waf3-*-*/
 # Lockfile
 .lock-waf_*_build
+.gradle/
+.idea/.gitignore
+.idea/.name
+.idea/caches/
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/
+.idea/vcs.xml
+app/build/
+build/
