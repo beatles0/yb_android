@@ -17,6 +17,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
+            android:id="@+id/id_go_back"
             android:text="뒤로가기" />
 
         <ImageView

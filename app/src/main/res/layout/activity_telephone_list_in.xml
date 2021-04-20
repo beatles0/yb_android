@@ -32,12 +32,20 @@
             android:id="@+id/id_phone_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:width="250dp"
+            android:width="150dp"
             android:background="#ffff00"
             android:gravity="left"
             android:paddingLeft="10dp"
             android:text="전화번호"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="cc"
+            android:id="@+id/id_btn_click_in"
+            android:backgroundTint="#8BC34A"
+            />
 
     </LinearLayout>
     <View

@@ -3,8 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelephoneList">
+    tools:context=".TelephoneList"
+    android:orientation="vertical"
+    >
 
+<!--    <Button-->
+<!--        android:layout_width="1000dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:text="click"-->
+<!--        android:id="@+id/id_btn_click"-->
+<!--        android:backgroundTint="#000000"-->
+<!--        />-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

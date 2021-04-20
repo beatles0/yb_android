@@ -22,6 +22,7 @@
         <activity android:name=".IntentSecond" />
         <activity android:name=".IntentFirst" />
         <activity android:name=".AddViewActivity" />
+        <activity android:name=".TelephoneDetail" />
         <activity
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
