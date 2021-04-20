@@ -12,15 +12,16 @@ class TelephoneDetail : AppCompatActivity() {
         setContentView(R.layout.activity_telephone_detail)
 
         displayDetail()
+
         id_go_back.setOnClickListener {
             onBackPressed()
         }
     }
 
-    fun displayDetail() {
-        id_nick_name.setText(intent.getStringExtra("nickName"))
-        id_real_name.setText(intent.getStringExtra("realName"))
-        id_phone_number.setText(intent.getStringExtra("phoneNum"))
+    private fun displayDetail() {
+        id_nick_name.text = intent.getStringExtra("nickName")
+        id_real_name.text = intent.getStringExtra("realName")
+        id_phone_number.text = intent.getStringExtra("phoneNum")
     }
 
 }
