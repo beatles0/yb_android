@@ -6,30 +6,28 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name=".funda.ClickerApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="yb test"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
-        <activity android:name=".BindingTest"/>
-        <activity android:name=".TelephoneList">
+
+        <activity android:name=".ListView"></activity>
+
+        <activity android:name=".test.BindingTest" />
+        <activity android:name=".tel.TelephoneList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntentSecond" />
-        <activity android:name=".IntentFirst" />
+        <activity android:name=".tel.IntentSecond" />
+        <activity android:name=".tel.IntentFirst" />
         <activity android:name=".AddViewActivity" />
-        <activity android:name=".TelephoneDetail" />
-        <activity
-            android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Test.NoActionBar" />
-        <activity android:name=".Listerner">
-
-        </activity>
+        <activity android:name=".tel.TelephoneDetail" />
     </application>
 
 </manifest>

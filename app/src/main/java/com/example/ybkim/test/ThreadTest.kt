@@ -1,8 +1,9 @@
-package com.example.ybkim
+package com.example.ybkim.test
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.ybkim.R
 
 
 class ThreadTest : AppCompatActivity() {

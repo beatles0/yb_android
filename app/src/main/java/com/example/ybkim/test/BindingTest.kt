@@ -1,14 +1,9 @@
-package com.example.ybkim
+package com.example.ybkim.test
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.LinearLayout
-import android.widget.TextView
+import com.example.ybkim.R
 import com.example.ybkim.databinding.ActivityBindingTestBinding
-import kotlinx.android.synthetic.main.activity_binding_test.*
-import kotlinx.android.synthetic.main.activity_intent_second.*
-import org.w3c.dom.Text
 
 class BindingTest : AppCompatActivity() {
     private lateinit var binding: ActivityBindingTestBinding

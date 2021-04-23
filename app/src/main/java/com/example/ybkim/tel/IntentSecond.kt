@@ -1,10 +1,11 @@
-package com.example.ybkim
+package com.example.ybkim.tel
 
 import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.ybkim.R
 import kotlinx.android.synthetic.main.activity_intent_second.*
 
 class IntentSecond : AppCompatActivity() {

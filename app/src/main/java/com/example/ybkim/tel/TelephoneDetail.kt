@@ -1,9 +1,8 @@
-package com.example.ybkim
+package com.example.ybkim.tel
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.OnBackPressedCallback
-import androidx.activity.OnBackPressedDispatcherOwner
+import com.example.ybkim.R
 import kotlinx.android.synthetic.main.activity_telephone_detail.*
 
 class TelephoneDetail : AppCompatActivity() {
